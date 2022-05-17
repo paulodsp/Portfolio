@@ -1,0 +1,42 @@
+.boxed .columns6 .portfolio-content > span { font-size: 12px; }
+.boxed .columns6 .portfolio-content { top: 32% !important; margin-top: 0; }
+.boxed .columns6 .grid-inner:hover .portfolio-content { top: 30% !important; margin-top: 0; }
+.boxed .columns6 .grid-border:after,
+.boxed .columns6 .grid-border:before { display: none; }
+.boxed .columns6 .video-icon { left: 33%; top: 35%; margin-top: 14px; }
+.boxed .columns4 .portfolio-content { top: 53% !important; margin-top: 0; }
+.boxed .columns4 .grid-inner:hover .portfolio-content { top: 50% !important; margin-top: 0; }
+.boxed .columns4 .grid-inner:hover .grid-border:before,
+.boxed .columns4 .grid-inner:hover .grid-border:after { top: 30% !important; }
+.boxed .columns4 .video-icon { left: 40%; top: 40%; }
+.boxed .columns6 .justified .portfolio-content { top: 32% !important; margin-top: 0; }
+.boxed .columns6 .justified .grid-inner:hover .portfolio-content { top: 30% !important; margin-top: 0; }
+.columns6 .justified .portfolio-content { top: 50% !important; margin-top: 0; }
+.columns6 .justified .grid-inner:hover .grid-border:before,
+.columns6 .justified .grid-inner:hover .grid-border:after { top: 30% !important; }
+.columns6 .masonry .portfolio-content { top: 32% !important; }
+.columns6 .masonry .grid-inner:hover .portfolio-content { top: 30% !important; }
+.columns6 .masonry .grid-inner:hover .grid-border:before,
+.columns6 .masonry .grid-inner:hover .grid-border:after { top: 30% !important; }
+.columns6 .masonry .video-icon { top: 40%; }
+@media screen and (min-width: 1279px) and (max-width: 1920px) {
+    .portfolio-content > span { font-size: 21px; }
+}
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .portfolio-content > span { font-size: 21px; }
+}
+@media screen and (min-width: 981px) and (max-width: 1024px) {
+    .portfolio-content > span { font-size: 21px; }
+}
+@media screen and (min-width: 801px) and (max-width: 980px) {
+    .portfolio-content > span { font-size: 21px; }
+}
+@media screen and (min-width: 481px) and (max-width: 800px) {
+    .portfolio-content > span { font-size: 11px; }
+}
+@media screen and (min-width: 361px) and (max-width: 480px) {
+    .portfolio-content > span { font-size: 11px; }
+}
+@media screen and (min-width: 300px) and (max-width: 360px) {
+    .portfolio-content > span { font-size: 11px; }
+}

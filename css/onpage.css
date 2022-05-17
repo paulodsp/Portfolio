@@ -1,0 +1,315 @@
+/* 
+    Document   : onpage
+    Created on : May 2, 2014, 3:48:17 PM
+    Author     : Graphics
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body {
+    font-family: Quicksand;
+    font-size: 14px;
+}
+
+#page-content p {
+    line-height: 20px;
+    margin-bottom: 10px;
+    text-indent: 0px;
+}
+
+#sidebar-menu ul a {
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
+
+#sidebar-menu {
+    margin-top: 27px;
+}
+
+#sidebar-menu li {
+    margin-bottom: 0px;
+}
+
+#sidebar-menu li a {
+    padding: 6px;
+}
+
+#sidebar-filter a {
+    font-family: Quicksand;
+    font-size: 14px;
+}
+
+.portfolio-grid #sidebar-filter a {
+    text-transform: none;
+}
+
+.blog-grid #sidebar-filter a {
+    text-transform: none;
+}
+
+.gridifier-popup .button a,
+.prev_item:hover,
+.next_item:hover,
+.portfolio-button > a,
+#sidebar-menu ul a:before,
+.sidebar-default .social a,
+.portfolio-content-wrapper .close-content,
+.gridifier-popup .owl-next:hover,
+.gridifier-popup .owl-prev:hover,
+#back-top a,
+#load-more:hover,
+.button,
+.pbar,
+.highlight_yellow,
+.jtwt_tweet_text:before,
+.footer-w.widget.widget_recent_entries .post-date,
+.slide-index,
+.owl-prev:hover,
+.owl-next:hover,
+.team-social a,
+.contact-info li,
+.wpcf7-submit,
+#intro-button {
+    background: #82B0AE;
+}
+
+.post-arrow-next:after,
+.post-arrow-prev:before,
+#sidebar-menu ul a:hover,
+blockquote:before,
+#responsive-menu li a:hover,
+#page-sidebar a:hover,
+#responsive-nav a:hover {
+    color: #EEEE22;
+}
+
+.sidebar-default .social a {
+    color: rgba(17, 17, 17, 1) !important;
+}
+
+.sidebar-default .social a:hover {
+    background-color: rgba(17, 17, 17, 1) !important;
+    color: #EEEE22 !important;
+}
+
+.owl-page.active > span {
+    background-color: #EEEE22 !important;
+}
+
+.current-menu-item a {
+    color: #EEEE22 !important;
+}
+
+.logo-text {
+    color: #FFFFFF;
+    font-family: Engagement;
+    font-size: 68px;
+    font-weight: 100;
+    text-transform: none;
+}
+
+#sidebar-logo img {
+    max-width: 100%;
+}
+
+h1,
+.entry-title > a {
+    font-family: Quicksand;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #111111;
+}
+
+h2 {
+    font-family: Quicksand;
+    font-size: 26px;
+    line-height: 23px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #111111;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	word-break: none;
+}
+
+h3 {
+    font-family: Quicksand;
+    font-size: 19px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #111111;
+}
+
+h4 {
+    font-family: Quicksand;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #111111;
+}
+
+h5 {
+    font-family: Quicksand;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #111111;
+}
+
+h6 {
+    font-family: Quicksand;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #111111;
+}
+
+/**
+    * LAYOUT
+    */
+#page-sidebar,
+#responsive-nav,
+#responsive-nav #responsive-menu {
+    background-image: url(../images/left-nav-bg.png);
+    background-repeat: repeat-y;
+}
+
+#page-sidebar .sidebar-block {
+    padding: 10px;
+}
+
+#page-sidebar {
+    padding: 40px;
+}
+
+#page-sidebar #sidebar-logo {
+    text-align: left;
+}
+
+#responsive-nav {
+    padding: 7px;
+}
+
+#page-sidebar,
+#responsive-nav {
+    color: #999999;
+}
+
+#page-sidebar a,
+#responsive-nav a {
+    color: #FFFFFF;
+}
+
+#page-sidebar a:hover,
+#responsive-nav a:hover {
+    color: #FFFFFF;
+}
+
+/**
+     * FOOTER
+     */
+#page-footer {
+    background-color: #111111;
+    color: #999999;
+    padding: 40px;
+}
+
+#page-footer a {
+    color: #FFFFFF;
+}
+
+#page-footer a:hover {
+    color: #FFFFFF;
+}
+
+#page-footer h4 {
+    color: #999999;
+}
+
+#page-footer .widget {
+    padding: 10px;
+}
+
+#page-content .grid-inner {
+    padding: 0px;
+}
+
+body.portfolio-grid #page-content .grid-border {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+}
+
+body.blog-grid #page-content .grid-border {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+}
+
+#page-content .content-wrap {
+    text-align: left;
+}
+
+#page-content {
+    padding: 50px;
+    background-color: #EEEEEE;
+    color: #000000;
+}
+
+#main-wrapper {
+    -webkit-box-shadow: 0 0 50px 0 rgba(17, 17, 17, 0.85);
+    -moz-box-shadow: 0 0 50px 0 rgba(17, 17, 17, 0.85);
+    box-shadow: 0 0 50px 0 rgba(17, 17, 17, 0.85);
+}
+
+#page-content a {
+    color: #555555;
+}
+
+#page-content a:hover {
+    color: #FFC000;
+}
+
+body.portfolio-grid #page-content {
+    padding: 0px;
+}
+
+body.blog-grid #page-content {
+    padding: 18px;
+}
+
+body.portfolio-slider #page-content {
+    padding: 0;
+}
+
+body.blog-grid #page-content .grid-inner {
+    padding: 20px;
+}
+
+.loader-corner {
+    background: #FFC000;
+}
+
+.loader-yt {
+    background: #EEEE22;
+}
+
+.loader-yt::after {
+    background: #EEEE22;
+    box-shadow: 0 0 15px #EEEE22, 0 0 5px #EEEE22;
+}
+
+.loader-yt.loader-animate::after {
+    box-shadow: 0 0 3px #EEEE22, 0 0 1px #EEEE22;
+}

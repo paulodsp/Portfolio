@@ -1,0 +1,552 @@
+::selection {
+    color: #000000;
+    background: #EEEE22;
+}
+::-moz-selection {
+    color: #000000;
+    background: #EEEE22;
+}
+/*============= Sidebar ==============*/
+#logo-tagline {
+    display: block;
+}
+.page-sidebar #sidebar-logo {
+    text-align: center;
+}
+.social {
+    width: 100%;
+    margin: 20px auto 0;
+    opacity: 0;
+    -webkit-transform: translateY(-50px);
+    -moz-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+    -o-transform: translateY(-50px);
+    transform: translateY(-50px);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+.social-hover {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 140px;
+}
+.social-hover:hover .social {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 1;
+}
+.social-hover:hover:before {
+    opacity: 0;
+}
+.social-hover:before {
+    content: '\e7a7';
+    font-family: icomoon;
+    font-size: 16px;
+    left: 48%;
+    position: absolute;
+    top: 30px;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+.sidebar-default .social ul {
+    padding: 0;
+}
+.sidebar-default .social li {
+    display: inline-block;
+    list-style: none outside none;
+}
+.sidebar-default .social a {
+    height: 35px;
+    font-size: 16px;
+    padding: 9px 0 0 11px;
+    width: 35px;
+    opacity: 1;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+.sidebar-default .social a:hover {
+}
+#sidebar-menu ul a:hover {
+    opacity: 1;
+}
+#sidebar-menu ul a:hover:before {
+    opacity: 1;
+    color: #000000;
+    right: 10px;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+#sidebar-menu ul a:before {
+    content: "+";
+    font-size: 15px;
+    height: 23px;
+    line-height: 21px;
+    margin-top: 0px;
+    opacity: 0;
+    position: absolute;
+    right: -30px;
+    text-align: center;
+    width: 23px;
+}
+.portfolio-filter {
+    list-style: none outside none;
+    padding-left: 0px;
+}
+#sidebar-filter a {
+    opacity: 1;
+    display: block;
+    padding: 5px 10px 5px 15px;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+#sidebar-filter a:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+#sidebar-filter a:hover:before {
+    content: "\e9c1";
+}
+.portfolio-filter a:before {
+    color: rgba(155, 155, 155, 0.3);
+    content: "\e9be";
+    font-family: icomoon;
+    font-size: 12px;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+.portfolio-filter .selected:before {
+    color: rgba(255, 255, 255, 0.3);
+    content: "\e9c1";
+    font-family: icomoon;
+    font-size: 12px;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+.portfolio-filter .selected {
+    background: rgba(0, 0, 0, 0.4);
+}
+.top-sidebar .portfolio-filter:before {
+    content: '';
+    display: none;
+}
+/*============= Top sidebar ==============*/
+.top-sidebar .sidebar-default {
+    float: none;
+    display: block;
+}
+body.top-sidebar #page-content {
+    position: relative;
+    margin: 0 auto;
+}
+body.top-sidebar #sidebar-menu li {
+    padding-right: 20px;
+    display: inline-block;
+}
+body.top-sidebar #sidebar-menu {
+    width: 70%;
+}
+.top-sidebar #page-header #page-sidebar {
+    min-height: 250px;
+}
+.top-sidebar .social-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+}
+.top-sidebar .social {
+    position: absolute;
+    right: 25%;
+    top: 60px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    width: 40%;
+    opacity: 0;
+}
+.top-sidebar .social-hover:before {
+    content: '\e7a7';
+    font-family: icomoon;
+    font-size: 16px;
+    position: absolute;
+    top: 30px;
+    left: 70%;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+.top-sidebar .social-hover:hover .social {
+    top: 10px;
+    right: 10%;
+}
+.top-sidebar .social-hover:hover:before {
+    opacity: 0;
+}
+.top-sidebar .social a {
+    height: 30px;
+    opacity: 1;
+    padding: 4px 0 0 8px;
+    width: 30px;
+}
+.top-sidebar .portfolio-filter li {
+    display: inline-block;
+    position: relative;
+    top: -40px;
+}
+.top-sidebar #sidebar-menu {
+    height: 90px;
+    margin-top: 2%;
+}
+.top-sidebar #sidebar-filter {
+    position: absolute;
+    bottom: -30px;
+    width: 70%;
+}
+.portfolio-filter .selected {
+    color: #FFFFFF !important;
+}
+/*============= Portfolio Single Page ==============*/
+.single-portfolio-image {
+    float: left;
+}
+.single-portfolio-description {
+    float: right;
+}
+.portfolio-slider > img {
+    width: 100%;
+}
+.fix {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 50px;
+}
+.portfolio-back-button {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0.5);
+    padding: 25px;
+}
+.portfolio-back-button:hover {
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+.portolio-item-navigation {
+    height: 100px;
+    position: relative;
+}
+.portfolio-back {
+    display: inline-block;
+    left: 0;
+    position: absolute;
+}
+.prev_item {
+    height: 70px;
+    position: absolute;
+    right: 80px;
+    width: 70px;
+    padding: 25px;
+}
+.prev_item:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+.prev_item:before {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+    content: "";
+    height: 1px;
+    left: 20px;
+    position: absolute;
+    top: 25px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    width: 30px;
+}
+.prev_item:after {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+    content: "";
+    height: 1px;
+    left: 20px;
+    position: absolute;
+    top: 46px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 30px;
+}
+.next_item {
+    height: 70px;
+    position: absolute;
+    right: 0;
+    width: 70px;
+    padding: 25px;
+}
+.next_item:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+.next_item:before {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+    content: "";
+    height: 1px;
+    left: 20px;
+    position: absolute;
+    top: 25px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 30px;
+}
+.next_item:after {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+    content: "";
+    height: 1px;
+    left: 20px;
+    position: absolute;
+    top: 46px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    width: 30px;
+}
+.portfolio-item-description {
+    margin: 50px 0 50px 0px;
+}
+.portfolio-item-description > h5,
+.portfolio-item-details > h5 {
+    letter-spacing: 5px;
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.portfolio-item-date,
+.portfolio-item-client {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+.portfolio-tags {
+    padding: 10px 0;
+}
+.portfolio-tags > li {
+    display: inline-block;
+    list-style: none outside none;
+    margin: 5px;
+}
+.portfolio-tags a:after {
+    content: " \\";
+    left: 10px;
+    position: relative;
+    padding-right: 20px;
+    color: rgba(0, 0, 0, 0.3);
+}
+.portfolio-tags a {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+.portfolio-button > a {
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1) !important;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.portfolio-button > a:hover {
+    background: rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.5) !important;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+/*============= Team Memders page ==============*/
+.page-template-page-about-us-php .content-wrap {
+    padding: 50px 150px 50px 150px;
+}
+.team-content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 40px;
+}
+.team-image img {
+    width: 100%;
+}
+.team-item {
+    padding: 30px 0 30px 0px;
+}
+.team-position {
+    display: inline-block;
+    margin: 0;
+    padding: 0px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.team-social a {
+    color: #000000 !important;
+    display: inline-block;
+    font-size: 21px;
+    height: 50px;
+    line-height: 30px;
+    margin: 20px 20px 0px 0px;
+    padding: 10px;
+    text-align: center;
+    width: 50px;
+}
+.team-text {
+    padding: 20px 0 20px 0px;
+    margin-top: 0px;
+}
+/*============= Contact form page ==============*/
+.gmap-wrap {
+    bottom: 10px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.page-template-page-contact-us-php h1 {
+    z-index: 1;
+    position: relative;
+}
+.page-template-page-contact-us-php .content-wrap {
+    padding-top: 40%;
+    min-height: 1000px;
+}
+.page-template-page-contact-us-php #page-content {
+    padding: 22px;
+}
+.contact-form {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 40px;
+}
+.contact-info li {
+    display: inline-block;
+    font-size: 21px;
+    margin-bottom: 40px;
+    padding: 40px;
+    width: 100%;
+}
+.contact-info i {
+    font-size: 43px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.wpcf7-form-control {
+    width: 100%;
+    border: 0;
+    background: rgba(0, 0, 0, 0.1);
+}
+.wpcf7-submit {
+    height: 50px;
+    width: 140px;
+}
+.wpcf7-text {
+    height: 50px;
+}
+/*============= Footer ==============*/
+.footer .social li {
+    float: left;
+    display: block;
+    list-style: none;
+}
+.footer .social a {
+    padding: 10px;
+}
+#back-top a {
+    bottom: -20px;
+    display: block;
+    height: 90px;
+    line-height: 50px;
+    position: fixed;
+    right: 30px;
+    text-align: center;
+    width: 70px;
+    z-index: 9999;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+#back-top a:hover {
+    bottom: 0;
+}
+#back-top a:before {
+    color: #000000;
+    content: "";
+    display: block;
+    font-family: 'icomoon';
+    height: 1px;
+    left: 10px;
+    position: relative;
+    background-color: #FFFFFF;
+    top: 35px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    width: 30px;
+}
+#back-top a:after {
+    color: #000000;
+    content: "";
+    display: block;
+    font-family: 'icomoon';
+    height: 1px;
+    left: 31px;
+    position: relative;
+    top: 35px;
+    background-color: #FFFFFF;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 30px;
+}
+/*============= General classes ==============*/
+.loadmore {
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 161px;
+    cursor: pointer;
+}
+#load-more:hover {
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+.loadmore a {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
