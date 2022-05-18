@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6E76C375-C3D2-448B-BEED-C236077A3D70">
+  <lastEdited clientType="local-build-20150423" date="2015-04-23 11:50:26 +0100"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;SPARK&#x2122;. The SPA in the Park - Coming Soon.&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Tuesday, 6 March 2012&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>SPARK&#x2122;. The Spa in the Park. Inclusive, accessible and affordable luxury in the most amazing location in central London. Supporting and promoting the wellbeing and health of the people of London and its visitors. &#xD;&#xD;We&#x2019;ve been shortlisted for our new idea to build a new and inclusive Spa in London&#x2019;s Regent Park. An amazing location for a Spa experience in a great city.&#xD;&#xD;Keep an eye out for more news and developments. &#xD;&#xD;Get in touch if you want to help in any way.</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="6_SPARK._The_SPA_in_the_Park_-_Coming_Soon._files/shapeimage_1.png" left="0px" top="0px" width="481px" height="237px"/>
+</content>

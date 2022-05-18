@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6E76C375-C3D2-448B-BEED-C236077A3D70">
+  <lastEdited clientType="local-build-20150423" date="2015-04-23 11:50:11 +0100"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Demanding stuff&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Wednesday, 15 September 2010&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>Paul is working with clients in London as a Design Associate as part of the Design Council's Designing Demand programme to help businesses grow using creative thinking.&#xD; &#xD;We investigate and propose improvements across the companies we consult with. Impacts to Vision and Strategy, Brand and Communications, Product and Service Design, Customer Understanding and Engagement, Culture and Environment are all considered and projects started to address each opportunity.&#xD;&#xD;Currently helping a diverse range of business in many sectors including insurance care services, political and risk forecasting, commercial property, video games advertising and sales generation organisations with local and global operations.&#xD;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="15_Demanding_stuff_files/shapeimage_1.png" left="0px" top="0px" width="229px" height="217px"/>
+</content>

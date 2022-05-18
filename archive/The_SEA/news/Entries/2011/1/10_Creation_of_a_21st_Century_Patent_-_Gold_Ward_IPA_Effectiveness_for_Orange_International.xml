@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6E76C375-C3D2-448B-BEED-C236077A3D70">
+  <lastEdited clientType="local-build-20150423" date="2015-04-23 11:50:15 +0100"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Creation of a 21st Century Patent - Gold Ward IPA Effectiveness for Orange International&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Monday, 10 January 2011&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>Thought it worth uploading this paper we put together with the team from WCRS - our advertising agency at the time. We won the first ever gold award for International Marketing with this paper. It describes the Orange business strategy as well as the Orange launches in the UK (briefly), and those whom I directed and led in Hong Kong, Israel, Switzerland, Belgium, Australia and India. The final section of the paper sets out to quantify shareholder value. Also the Mannesmann acquisition of Orange and the takeover of Mannesmann by Vodafone are explained and can be found here: - &lt;a href="Orange%20-%20IPA%20case%20study%202000-2.pdf"&gt;Orange - IPA case study 2000.pdf&lt;/a&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="10_Creation_of_a_21st_Century_Patent_-_Gold_Ward_IPA_Effectiveness_for_Orange_International_files/shapeimage_1.png" left="0px" top="0px" width="486px" height="339px"/>
+</content>

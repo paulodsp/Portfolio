@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6E76C375-C3D2-448B-BEED-C236077A3D70">
+  <lastEdited clientType="local-build-20150423" date="2015-04-23 11:50:21 +0100"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;The SEA designing products for NEC.&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Tuesday, 24 January 2012&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>The SEA are designing a range of Femtocells for NEC.&#xD;&#xD;These small pieces of hardware help you to get the best from your mobile when you are at home or work or out and about. They connect to the internet and deliver all your calls and internet connection on your own private 3G network. Saving you battery power over Wifi and delivering a whole new range of services between you and your family or colleagues.&#xD;&#xD;The SEA&#x2019;s new designs will help create a quality brand positioning for NEC in this market place and support their global mobile network customers.&#xD;&#xD;Watch out for more news and to get a sneak preview of the final designs too.</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="24_The_SEA_designing_products_for_NEC._files/shapeimage_1.png" left="0px" top="0px" width="412px" height="263px"/>
+</content>

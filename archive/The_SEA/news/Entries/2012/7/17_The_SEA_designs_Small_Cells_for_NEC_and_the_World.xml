@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6E76C375-C3D2-448B-BEED-C236077A3D70">
+  <lastEdited clientType="local-build-20150423" date="2015-04-23 11:50:29 +0100"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>The SEA designs Small Cells for NEC and the World</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Tuesday, 17 July 2012&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>The Sea is proud to announce the launch of a range of designs for residential and office small cells for NEC worldwide. &#xD;&#xD;The SEA Managing director, Paul Phillips, says&#xD;&#x201C;Unlike most products of this type our design is a simple, organic, asymmetrical form. As well as creating a tactile and beautiful looking object, the design is practical, dealing with the potential mess of cables by obscuring the connections beneath the smooth bowl-shaped top cover.&#xD;&#xD;This distinctive family of products have a shape, size and finish enabling the technology to be delivered whilst respecting both domestic and office interior environments.&#xD;&#xD;The innovative outer casing helps to cool the internal components, with the overlapping top cover providing a hidden continuous vent around the unit. This complements the highly energy efficient power consumption (over 50% lower than EU regulations).&#xD;&#xD;The design provides a flexible solution to enable clear operator branding to be applied in line with NEC&#x2019;s customers&#x2019; marketing and brand requirements.&#xD;&#xD;Small cells  - mini mobile base stations that connect via broadband - are already more abundant than 3G masts and will become present in more and more places as mobile communications devices use more data. They will be the way network operators ensure they can provide services in the buildings where their customers are.&#x201D;&#xD;&#xD;Anil Kohli, General Manager at NEC Europe, says&#xD;&#x201C;The design of our new small cells by The SEA gives us a modern and distinctive look and feel for the range of hardware to support our suite of propositions to our global customers. They have already given us great feedback and we look forward to seeing them successfully deployed in homes and businesses around the world.&#x201D;&#xD;&#xD;The design also features:-&#x2028;Simple plug and play operation.&#x2028;Casing made from recycled plastic.&#x2028;Single solution for all bands including GPS antenna.</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="17_The_SEA_designs_Small_Cells_for_NEC_and_the_World_files/shapeimage_1.png" left="0px" top="0px" width="412px" height="263px"/>
+</content>

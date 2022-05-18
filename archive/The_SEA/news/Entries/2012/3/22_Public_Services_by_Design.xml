@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6E76C375-C3D2-448B-BEED-C236077A3D70">
+  <lastEdited clientType="local-build-20150423" date="2015-04-23 11:50:24 +0100"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Public Services by Design&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Thursday, 22 March 2012&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>Paul is working with the Design Council as a Design Associate to help redesign the pharmacy and its services at Whittingdon Hospital in north London.&#xD;&#xD;Helping to transform public services through expert mentoring. The programme helps service leaders and frontline teams meet service delivery challenges.&#xD;Design Associates are strategic design advisors with experience of mentoring in both&#xD;the public and private sector. They will help you use design to ensure priority services are more effective and efficient and meet the needs of local people. &lt;a href="http://www.designcouncil.org.uk/our-work/support/Public-Services-by-Design/"&gt;Read More&lt;/a&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="22_Public_Services_by_Design_files/shapeimage_1.png" left="0px" top="0px" width="412px" height="263px"/>
+</content>

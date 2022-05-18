@@ -1,0 +1,9 @@
+// Created by iWeb 3.0.4 local-build-20150423
+
+setTransparentGifURL('Media/transparent.gif');function applyEffects()
+{var registry=IWCreateEffectRegistry();registry.registerEffects({shadow_0:new IWShadow({blurRadius:4,offset:new IWPoint(1.4142,1.4142),color:'#0a1a1f',opacity:0.500000}),shadow_2:new IWShadow({blurRadius:15,offset:new IWPoint(-0.0000,6.0000),color:'#1b4d5c',opacity:0.750000}),shadow_1:new IWShadow({blurRadius:15,offset:new IWPoint(-0.0000,6.0000),color:'#1b4d5c',opacity:0.750000}),stroke_0:new IWStrokeParts([{rect:new IWRect(-2,2,4,292),url:'Trial_%26_Learn_files/stroke.png'},{rect:new IWRect(-2,-2,4,4),url:'Trial_%26_Learn_files/stroke_1.png'},{rect:new IWRect(2,-2,596,4),url:'Trial_%26_Learn_files/stroke_2.png'},{rect:new IWRect(598,-2,4,4),url:'Trial_%26_Learn_files/stroke_3.png'},{rect:new IWRect(598,2,4,292),url:'Trial_%26_Learn_files/stroke_4.png'},{rect:new IWRect(598,294,4,5),url:'Trial_%26_Learn_files/stroke_5.png'},{rect:new IWRect(2,294,596,5),url:'Trial_%26_Learn_files/stroke_6.png'},{rect:new IWRect(-2,294,4,5),url:'Trial_%26_Learn_files/stroke_7.png'}],new IWSize(600,296)),reflection_0:new IWReflection({opacity:0.50,offset:3.00})});registry.applyEffects();}
+function hostedOnDM()
+{return false;}
+function onPageLoad()
+{loadMozillaCSS('Trial_&_Learn_files/Trial_&_LearnMoz.css')
+adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');adjustLineHeightIfTooBig('id2');adjustFontSizeIfTooBig('id2');adjustLineHeightIfTooBig('id3');adjustFontSizeIfTooBig('id3');fixupAllIEPNGBGs();fixAllIEPNGs('Media/transparent.gif');IMpreload('Trial_&_Learn_files','shapeimage_1','0');IMpreload('Trial_&_Learn_files','shapeimage_1','1');IMpreload('Trial_&_Learn_files','shapeimage_1','2');IMpreload('Trial_&_Learn_files','shapeimage_1','3');IMpreload('Trial_&_Learn_files','shapeimage_1','4');IMpreload('Trial_&_Learn_files','shapeimage_3','0');IMpreload('Trial_&_Learn_files','shapeimage_3','1');applyEffects()}

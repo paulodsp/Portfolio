@@ -1,0 +1,9 @@
+// Created by iWeb 3.0.4 local-build-20150423
+
+setTransparentGifURL('Media/transparent.gif');function applyEffects()
+{var registry=IWCreateEffectRegistry();registry.registerEffects({shadow_1:new IWShadow({blurRadius:15,offset:new IWPoint(-0.0000,6.0000),color:'#1b4d5c',opacity:0.750000}),stroke_0:new IWPhotoFrame([IWCreateImage('The_Innovation_Process_files/Formal_inset_01.png'),IWCreateImage('The_Innovation_Process_files/Formal_inset_02.png'),IWCreateImage('The_Innovation_Process_files/Formal_inset_03.png'),IWCreateImage('The_Innovation_Process_files/Formal_inset_06.png'),IWCreateImage('The_Innovation_Process_files/Formal_inset_09.png'),IWCreateImage('The_Innovation_Process_files/Formal_inset_08.png'),IWCreateImage('The_Innovation_Process_files/Formal_inset_07.png'),IWCreateImage('The_Innovation_Process_files/Formal_inset_04.png')],null,0,0.642857,1.000000,1.000000,1.000000,1.000000,14.000000,14.000000,14.000000,14.000000,191.000000,262.000000,191.000000,262.000000,null,null,null,0.100000),shadow_0:new IWShadow({blurRadius:15,offset:new IWPoint(-0.0000,6.0000),color:'#1b4d5c',opacity:0.750000})});registry.applyEffects();}
+function hostedOnDM()
+{return false;}
+function onPageLoad()
+{loadMozillaCSS('The_Innovation_Process_files/The_Innovation_ProcessMoz.css')
+adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');adjustLineHeightIfTooBig('id2');adjustFontSizeIfTooBig('id2');fixupAllIEPNGBGs();fixAllIEPNGs('Media/transparent.gif');IMpreload('The_Innovation_Process_files','shapeimage_1','0');IMpreload('The_Innovation_Process_files','shapeimage_1','1');IMpreload('The_Innovation_Process_files','shapeimage_1','2');IMpreload('The_Innovation_Process_files','shapeimage_1','3');IMpreload('The_Innovation_Process_files','shapeimage_1','4');IMpreload('The_Innovation_Process_files','shapeimage_3','0');IMpreload('The_Innovation_Process_files','shapeimage_3','1');applyEffects()}

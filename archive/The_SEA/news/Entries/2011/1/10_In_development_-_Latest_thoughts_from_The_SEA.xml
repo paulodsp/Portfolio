@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="6E76C375-C3D2-448B-BEED-C236077A3D70">
+  <lastEdited clientType="local-build-20150423" date="2015-04-23 11:50:18 +0100"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;In development - Latest thoughts from The SEA&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;Monday, 10 January 2011&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>Book Margins - Thoughts on scribbles in the margins for the digital age. &lt;a href="perma://BLPageReference/73E1AF79-86AC-4AD4-891C-0794844F71FE"&gt;Read more&lt;/a&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="10_In_development_-_Latest_thoughts_from_The_SEA_files/shapeimage_1.png" left="0px" top="0px" width="486px" height="339px"/>
+</content>
